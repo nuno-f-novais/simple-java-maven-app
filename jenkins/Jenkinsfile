@@ -21,5 +21,10 @@ pipeline {
                 echo 'Job completed!'
             }
         }
+        stage('Testing build trigger') {
+            steps {
+                echo 'Job completed!'
+            }
+        }
     }
 }
